@@ -1,0 +1,23 @@
+body{
+    font-family: sans-serif;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+form input, form select, form button{
+    margin: 5px 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+form button{
+    font-size: large;
+    color: aliceblue;
+    background-color: rgb(67, 179, 67);
+    border-color: rgb(67, 179, 67);
+    box-shadow: none;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
