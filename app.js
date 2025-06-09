@@ -5,6 +5,10 @@ const totalDaily = document.getElementById('dailySum');
 const total = document.getElementById('totalSum');
 const today = new Date().toISOString().slice(0, 10);
 
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js');
+}
+
 form.addEventListener('submit', async (e) => {
     e.preventDefault();
 
